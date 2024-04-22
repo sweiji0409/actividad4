@@ -30,7 +30,7 @@ public class Alumno {
 		this.programacion = a3;
 		this.nombre = nombre;
 		this.anio_nac = anio;
-		if(dni.length != 9)
+		if(dni.length() != 9)
 			this.dni = "";
 		else
 			this.dni = dni;
